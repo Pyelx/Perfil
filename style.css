@@ -30,8 +30,8 @@ section{
 	background-color:#2e3440;
 	border-radius:20px;
 	padding:20px;
-	width:260px;
-	height:460px;
+	width:40%;
+	height:100%;
 	display:flex;
 	flex-flow:column nowrap;
 	justify-content:space-between;
@@ -40,7 +40,7 @@ section{
 	gap:5px;
 	}
 img{
-	height:250px;
+	width:20rem;
 	border:10px solid #2e3440;
 	border-radius: 500px;
 }
