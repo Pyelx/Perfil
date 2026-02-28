@@ -4,15 +4,23 @@
 	margin:0;
 	padding:0;
 	font-family:"Fira Code";
+
+	font-size:1.5rem
+
 }
 body{
 	display:flex;
-	flex-flow: column wrap;
+	flex-flow: column  nowrap;
+	justify-content:center;
+	align-content:center;
+	align-items:center;
 	gap:40px;
 	background-color:#434c5e;
 	color:#8fbcbb;
 }
 main{
+	height:100%;
+	width:100%;
 	display:flex;
 	flex-flow: column wrap;
 	justify-content:center;
@@ -29,8 +37,9 @@ header{
 section{	
 	background-color:#2e3440;
 	border-radius:20px;
+	margin:0rem;
 	padding:20px;
-	width:40%;
+	width:50%;
 	height:100%;
 	display:flex;
 	flex-flow:column nowrap;
@@ -52,8 +61,8 @@ a{
 	align-items:center;
 	background-color: #3b4252;
 	border-radius: 10px;
-	width:70px;
-	height:40px;
+	width:60%;
+	height:100%;
 	color:#8fbcbb;
 }
 #links{
@@ -62,4 +71,6 @@ a{
 	gap:10px;
 	justify-content:start;
 	align-items:center;
+}
+p{
 }
